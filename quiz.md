@@ -63,9 +63,11 @@ This allows you to model a has-a association between objects.
 
 7. When would you use composition? Provide a simple example in Java.
 
+When an Object is required to rely on a certain property of a series of subclasses. For example if a system requires the ability to output information (e.g. print it to screen), but the exact mechanism/class which implements this feature does not need to be set, or can be subject to change.
+
+
 8. What is/are the advantage(s) of using composition?
 
-When an Object is required to rely on a certain property of a series of subclasses. For example if a system requires the ability to output information (e.g. print it to screen), but the exact mechanism/class which implements this feature does not need to be set, or can be subject to change.
 
 Stronger, reusable code.
 
